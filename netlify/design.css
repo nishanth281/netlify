@@ -1,0 +1,127 @@
+
+*{
+	padding: 0px;
+	margin :0px;
+}
+
+
+body {
+
+	
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("bike.jpg")no-repeat;
+	background-position:center;
+    background-size:cover;
+	height:100vh;
+	position:relative;  
+}
+
+ul{
+   float:right;
+   list-style:none;
+   margin-top:25px;  
+}
+
+ul li{
+display:inline-block;
+
+}
+
+ul li a{
+    font-family: Calibri;
+	text-decoration:none;
+	color:#fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+}
+
+ul li a:hover{
+
+	background-color:#fff; 
+	color:#000;
+
+}
+.p1 {
+	position:absolute;
+	color:white;
+	font-family:Helvetica; 
+	font-size: 20px;
+	top:32%;
+	right:43.4%;
+	
+
+}
+.p2 {
+	position:absolute;
+	color:white;
+	font-family:Helvetica; 
+	font-size: 20px;
+	top:50%;
+	left:10%;
+	right: 10%;
+
+
+}
+
+.bik h6{
+    
+    color:#fff;
+	font-size:70px;
+	font-family:Copperplate;
+	position:absolute;
+	top:15%;
+	right:25%;
+	left:25%;
+}
+.bik h6 a{
+	color: white;
+       text-decoration:none;
+       text-decoration-color:white;  
+}
+
+/*
+<div class="boc">
+
+		<form >
+			<input type="text" placeholder="search parts">
+			<button>search</button>
+		</form>
+	</div>
+	
+input {
+    size:40px; 
+	position: absolute;
+	top:40%;
+	right:41%;
+	display:inline-block; 
+	width: 20%;
+	height:3%;
+	margin-right: auto;
+	margin-left: auto; 
+	border-radius:.5rem;
+	padding:.3rem; 
+	border:none;
+	outline: none;
+
+}
+
+button{
+	position: absolute;
+	top:40%;
+	right:41%;
+	height:3%;
+	display:block;
+	border-radius:.5rem; 
+	border:none;
+	outline: none; 
+	background-color:lightgrey;
+	color:black;
+}*/
+
+
+
+
+
+
+
+
